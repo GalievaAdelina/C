@@ -1,0 +1,74 @@
+// г 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+double a;
+
+cout << "Введите вещественное число a: ";
+
+cin >> a;
+
+// г) a^8 за три операции
+
+double a2 = a * a;
+
+double a4 = a2 * a2;
+
+double a8 = a4 * a4;
+
+cout << "a^8 = " << a8 << endl;
+
+return 0;
+
+}
+// д 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+double a;
+
+cout << "Введите вещественное число a: ";
+
+cin >> a;
+
+// д) a^9 за четыре операции
+
+double a3 = a * a2;
+
+double a9 = a3 * a3 * a3;
+
+cout << "a^9 = " << a9 << endl;
+
+return 0;
+
+}
+// е
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+double a;
+
+cout << "Введите вещественное число a: ";
+
+cin >> a;
+
+// e) a^10 за четыре операции
+
+double a5 = a4 * a;
+
+double a10 = a5 * a5;
+
+cout << "a^10 = " << a10 << endl;
+
+return 0;
+
+}
