@@ -1,0 +1,19 @@
+```c++
+#include<iostream>
+using namespace std;
+int main()
+{
+    float diameter, length;
+    const float pi = 3.14;
+
+    cout << "Enter the diameter of the circle:";
+    cin >> diameter;
+
+    length = pi * diameter;
+
+    cout<<"Length of the circle is "<<length<<endl;
+
+    return 0;
+}
+```
+
