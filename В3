@@ -1,0 +1,17 @@
+```cpp
+#include <iostream>
+
+int main() {
+    double a, b;
+    std::cout << "Введите длину стороны a: ";
+    std::cin >> a;
+    std::cout << "Введите длину стороны b: ";
+    std::cin >> b;
+    double S = a * b;
+    double P = 2 * (a + b);
+    std::cout << "Площадь прямоугольника: " << S << std::endl;
+    std::cout << "Периметр прямоугольника: " << P << std::endl;
+    return 0;
+}
+```
+
